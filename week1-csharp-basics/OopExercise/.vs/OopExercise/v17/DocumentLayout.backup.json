@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\jyr\\Desktop\\study\\dev\\language\\c#\\csharp-relearning\\week1-csharp-basics\\OopExercise\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A7983A59-E868-4A12-BD21-B237B5B429D9}|OopExercise\\OopExercise.csproj|c:\\users\\jyr\\desktop\\study\\dev\\language\\c#\\csharp-relearning\\week1-csharp-basics\\oopexercise\\oopexercise\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7983A59-E868-4A12-BD21-B237B5B429D9}|OopExercise\\OopExercise.csproj|solutionrelative:oopexercise\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\jyr\\Desktop\\study\\dev\\language\\c#\\csharp-relearning\\week1-csharp-basics\\OopExercise\\OopExercise\\Program.cs",
+              "RelativeDocumentMoniker": "OopExercise\\Program.cs",
+              "ToolTip": "C:\\Users\\jyr\\Desktop\\study\\dev\\language\\c#\\csharp-relearning\\week1-csharp-basics\\OopExercise\\OopExercise\\Program.cs",
+              "RelativeToolTip": "OopExercise\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T06:38:01.02Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
