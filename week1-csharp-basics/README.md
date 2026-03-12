@@ -42,16 +42,9 @@ week1-csharp-basics/
 ## 📂 파일별 설명
 
 ### `StudentManager.cs` — LINQ 실습
-<!-- - `List<Student>` 컬렉션을 LINQ로 필터링, 정렬, 집계
-- `Where`, `Select`, `OrderByDescending`, `Average`, `GroupBy` 사용
-- 학습 포인트: 메서드 체이닝, 지연 실행(Deferred Execution)
+- `List<Student>` 컬렉션을 LINQ로 필터링, 정렬, 집계
 
-```csharp
-// 60점 이상인 학생을 점수 내림차순으로 출력
-var passed = students
-    .Where(s => s.Score >= 60)
-    .OrderByDescending(s => s.Score);
-``` -->
+
 
 ---
 
@@ -71,7 +64,7 @@ private static async Task<List<string>> LoadDataAsync()
 ---
 
 ### `OopExercise.cs` — 객체지향 실습
-<!-- - `IAnimal` 인터페이스 정의 및 `Dog`, `Cat` 클래스 구현
+- `IAnimal` 인터페이스 정의 및 `Dog`, `Cat` 클래스 구현
 
 ```csharp
 interface IAnimal {
@@ -83,7 +76,7 @@ class Dog : IAnimal {
     public string Name { get; } = "강아지";
     public void Speak() => Console.WriteLine("멍!");
 }
-``` -->
+```
 
 ---
 
@@ -109,25 +102,13 @@ cd week1-csharp-basics
 dotnet run
 ```
 
----
-
-## ✅ 학습 체크리스트
-
-- [ ] LINQ 핵심 메서드 5가지 이상 직접 작성
-- [ ] async/await 메서드 3개 이상 구현
-- [ ] 인터페이스 정의 + 구현 클래스 2개 이상
-- [ ] Null 안전 연산자 3가지 실제 코드에 적용
-- [ ] 단위 테스트 추가 (2주차 이후 보완 예정)
 
 ---
 
 ## 💡 학습 후기 / 트러블슈팅
 
 <!-- 실제 겪은 문제와 해결 과정을 작성하세요. 면접에서 좋은 소재가 됩니다. -->
-
-<!-- **문제:** `async` 메서드를 `void`로 선언했을 때 예외가 catch되지 않는 현상
-**원인:** `async void`는 예외가 호출자에게 전파되지 않음
-**해결:** 이벤트 핸들러 외에는 반드시 `async Task`로 선언하도록 수정 -->
+**주의사항** : 코드구현시 반복문이나 분기문을 사용하는 쪽이 익숙해서 LINQ를 사용하지 않고 구현하려는 경향이 있음으로 C# 사용시에는 이부분을 의식하면서 개발하기
 
 ---
 

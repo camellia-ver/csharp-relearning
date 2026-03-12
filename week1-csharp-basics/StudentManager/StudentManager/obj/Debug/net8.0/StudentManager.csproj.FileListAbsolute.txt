@@ -1,0 +1,15 @@
+C:\Users\jyr\Desktop\study\dev\language\c#\csharp-relearning\week1-csharp-basics\StudentManager\StudentManager\bin\Debug\net8.0\StudentManager.exe
+C:\Users\jyr\Desktop\study\dev\language\c#\csharp-relearning\week1-csharp-basics\StudentManager\StudentManager\bin\Debug\net8.0\StudentManager.deps.json
+C:\Users\jyr\Desktop\study\dev\language\c#\csharp-relearning\week1-csharp-basics\StudentManager\StudentManager\bin\Debug\net8.0\StudentManager.runtimeconfig.json
+C:\Users\jyr\Desktop\study\dev\language\c#\csharp-relearning\week1-csharp-basics\StudentManager\StudentManager\bin\Debug\net8.0\StudentManager.dll
+C:\Users\jyr\Desktop\study\dev\language\c#\csharp-relearning\week1-csharp-basics\StudentManager\StudentManager\bin\Debug\net8.0\StudentManager.pdb
+C:\Users\jyr\Desktop\study\dev\language\c#\csharp-relearning\week1-csharp-basics\StudentManager\StudentManager\obj\Debug\net8.0\StudentManager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jyr\Desktop\study\dev\language\c#\csharp-relearning\week1-csharp-basics\StudentManager\StudentManager\obj\Debug\net8.0\StudentManager.AssemblyInfoInputs.cache
+C:\Users\jyr\Desktop\study\dev\language\c#\csharp-relearning\week1-csharp-basics\StudentManager\StudentManager\obj\Debug\net8.0\StudentManager.AssemblyInfo.cs
+C:\Users\jyr\Desktop\study\dev\language\c#\csharp-relearning\week1-csharp-basics\StudentManager\StudentManager\obj\Debug\net8.0\StudentManager.csproj.CoreCompileInputs.cache
+C:\Users\jyr\Desktop\study\dev\language\c#\csharp-relearning\week1-csharp-basics\StudentManager\StudentManager\obj\Debug\net8.0\StudentManager.sourcelink.json
+C:\Users\jyr\Desktop\study\dev\language\c#\csharp-relearning\week1-csharp-basics\StudentManager\StudentManager\obj\Debug\net8.0\StudentManager.dll
+C:\Users\jyr\Desktop\study\dev\language\c#\csharp-relearning\week1-csharp-basics\StudentManager\StudentManager\obj\Debug\net8.0\refint\StudentManager.dll
+C:\Users\jyr\Desktop\study\dev\language\c#\csharp-relearning\week1-csharp-basics\StudentManager\StudentManager\obj\Debug\net8.0\StudentManager.pdb
+C:\Users\jyr\Desktop\study\dev\language\c#\csharp-relearning\week1-csharp-basics\StudentManager\StudentManager\obj\Debug\net8.0\StudentManager.genruntimeconfig.cache
+C:\Users\jyr\Desktop\study\dev\language\c#\csharp-relearning\week1-csharp-basics\StudentManager\StudentManager\obj\Debug\net8.0\ref\StudentManager.dll

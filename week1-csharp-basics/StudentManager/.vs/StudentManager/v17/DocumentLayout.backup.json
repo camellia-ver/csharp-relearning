@@ -5,6 +5,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{12E8D0E2-DC45-4616-BC83-734CE50DDC21}|StudentManager\\StudentManager.csproj|c:\\users\\jyr\\desktop\\study\\dev\\language\\c#\\csharp-relearning\\week1-csharp-basics\\studentmanager\\studentmanager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{12E8D0E2-DC45-4616-BC83-734CE50DDC21}|StudentManager\\StudentManager.csproj|solutionrelative:studentmanager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12E8D0E2-DC45-4616-BC83-734CE50DDC21}|StudentManager\\StudentManager.csproj|c:\\users\\jyr\\desktop\\study\\dev\\language\\c#\\csharp-relearning\\week1-csharp-basics\\studentmanager\\studentmanager\\studentmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12E8D0E2-DC45-4616-BC83-734CE50DDC21}|StudentManager\\StudentManager.csproj|solutionrelative:studentmanager\\studentmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +18,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StudentManagement.cs",
+              "DocumentMoniker": "C:\\Users\\jyr\\Desktop\\study\\dev\\language\\c#\\csharp-relearning\\week1-csharp-basics\\StudentManager\\StudentManager\\StudentManagement.cs",
+              "RelativeDocumentMoniker": "StudentManager\\StudentManagement.cs",
+              "ToolTip": "C:\\Users\\jyr\\Desktop\\study\\dev\\language\\c#\\csharp-relearning\\week1-csharp-basics\\StudentManager\\StudentManager\\StudentManagement.cs",
+              "RelativeToolTip": "StudentManager\\StudentManagement.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwBwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T07:54:37.306Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,9 +41,9 @@
               "RelativeDocumentMoniker": "StudentManager\\Program.cs",
               "ToolTip": "C:\\Users\\jyr\\Desktop\\study\\dev\\language\\c#\\csharp-relearning\\week1-csharp-basics\\StudentManager\\StudentManager\\Program.cs",
               "RelativeToolTip": "StudentManager\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAAACcAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-12T06:35:59.167Z",
+              "WhenOpened": "2026-03-12T07:33:59.376Z",
               "EditorCaption": ""
             }
           ]
