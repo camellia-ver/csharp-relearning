@@ -4,7 +4,7 @@
 
 [![.NET](https://img.shields.io/badge/.NET-8.0-512BD4?style=flat-square&logo=dotnet)](https://dotnet.microsoft.com/)
 [![C#](https://img.shields.io/badge/C%23-11.0-239120?style=flat-square&logo=c-sharp)](https://learn.microsoft.com/ko-kr/dotnet/csharp/)
-<!-- [![Status](https://img.shields.io/badge/Status-Complete-059669?style=flat-square)]() -->
+[![Status](https://img.shields.io/badge/Status-Complete-059669?style=flat-square)]() 
 
 ---
 
@@ -115,7 +115,7 @@ dotnet run
 ## 📅 학습 기간
 
 - 시작일: `2026-03-11`
-- 완료일: `2026-03-DD`
+- 완료일: `2026-03-13`
 
 ---
 
