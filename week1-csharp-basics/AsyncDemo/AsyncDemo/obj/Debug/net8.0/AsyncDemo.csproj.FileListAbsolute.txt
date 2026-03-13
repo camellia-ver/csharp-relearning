@@ -1,0 +1,15 @@
+C:\Users\jyr\Desktop\study\dev\language\c#\csharp-relearning\week1-csharp-basics\AsyncDemo\AsyncDemo\bin\Debug\net8.0\AsyncDemo.exe
+C:\Users\jyr\Desktop\study\dev\language\c#\csharp-relearning\week1-csharp-basics\AsyncDemo\AsyncDemo\bin\Debug\net8.0\AsyncDemo.deps.json
+C:\Users\jyr\Desktop\study\dev\language\c#\csharp-relearning\week1-csharp-basics\AsyncDemo\AsyncDemo\bin\Debug\net8.0\AsyncDemo.runtimeconfig.json
+C:\Users\jyr\Desktop\study\dev\language\c#\csharp-relearning\week1-csharp-basics\AsyncDemo\AsyncDemo\bin\Debug\net8.0\AsyncDemo.dll
+C:\Users\jyr\Desktop\study\dev\language\c#\csharp-relearning\week1-csharp-basics\AsyncDemo\AsyncDemo\bin\Debug\net8.0\AsyncDemo.pdb
+C:\Users\jyr\Desktop\study\dev\language\c#\csharp-relearning\week1-csharp-basics\AsyncDemo\AsyncDemo\obj\Debug\net8.0\AsyncDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jyr\Desktop\study\dev\language\c#\csharp-relearning\week1-csharp-basics\AsyncDemo\AsyncDemo\obj\Debug\net8.0\AsyncDemo.AssemblyInfoInputs.cache
+C:\Users\jyr\Desktop\study\dev\language\c#\csharp-relearning\week1-csharp-basics\AsyncDemo\AsyncDemo\obj\Debug\net8.0\AsyncDemo.AssemblyInfo.cs
+C:\Users\jyr\Desktop\study\dev\language\c#\csharp-relearning\week1-csharp-basics\AsyncDemo\AsyncDemo\obj\Debug\net8.0\AsyncDemo.csproj.CoreCompileInputs.cache
+C:\Users\jyr\Desktop\study\dev\language\c#\csharp-relearning\week1-csharp-basics\AsyncDemo\AsyncDemo\obj\Debug\net8.0\AsyncDemo.sourcelink.json
+C:\Users\jyr\Desktop\study\dev\language\c#\csharp-relearning\week1-csharp-basics\AsyncDemo\AsyncDemo\obj\Debug\net8.0\AsyncDemo.dll
+C:\Users\jyr\Desktop\study\dev\language\c#\csharp-relearning\week1-csharp-basics\AsyncDemo\AsyncDemo\obj\Debug\net8.0\refint\AsyncDemo.dll
+C:\Users\jyr\Desktop\study\dev\language\c#\csharp-relearning\week1-csharp-basics\AsyncDemo\AsyncDemo\obj\Debug\net8.0\AsyncDemo.pdb
+C:\Users\jyr\Desktop\study\dev\language\c#\csharp-relearning\week1-csharp-basics\AsyncDemo\AsyncDemo\obj\Debug\net8.0\AsyncDemo.genruntimeconfig.cache
+C:\Users\jyr\Desktop\study\dev\language\c#\csharp-relearning\week1-csharp-basics\AsyncDemo\AsyncDemo\obj\Debug\net8.0\ref\AsyncDemo.dll

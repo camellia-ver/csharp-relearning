@@ -35,7 +35,7 @@ week1-csharp-basics/
 | 언어 | C# 11.0 |
 | 프레임워크 | .NET 8.0 |
 | 실행 방식 | Console Application |
-| 개발 환경 | Visual Studio 2022 / VS Code |
+| 개발 환경 | Visual Studio 2022 |
 
 ---
 
@@ -49,17 +49,8 @@ week1-csharp-basics/
 ---
 
 ### `AsyncDemo.cs` — 비동기 처리 실습
-<!-- - `async/await` 패턴을 적용한 메서드 3개 이상 구현
+- `async/await` 패턴을 적용한 메서드 3개 이상 구현
 - `Task`, `Task<T>` 반환형 차이 실습
-- 학습 포인트: 비동기 흐름 제어, deadlock 방지
-
-```csharp
-private static async Task<List<string>> LoadDataAsync()
-{
-    await Task.Delay(1000); // I/O 대기 시뮬레이션
-    return new List<string> { "데이터1", "데이터2" };
-}
-``` -->
 
 ---
 
@@ -81,13 +72,7 @@ class Dog : IAnimal {
 ---
 
 ### `NullSafety.cs` — Null 안전 처리
-<!-- - `??`, `?.`, `??=` 연산자 활용
-- Nullable 참조 타입(`string?`) 처리 패턴
-- 학습 포인트: NullReferenceException 방지 전략
-
-```csharp
-string? city = user.Address?.City ?? "미등록";
-``` -->
+- `??`, `?.` 연산자 활용
 
 ---
 
