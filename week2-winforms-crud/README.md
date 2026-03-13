@@ -41,12 +41,12 @@ week2-winforms-crud/
 │   ├── MainForm.cs            # 메인 폼 (이벤트 핸들러)
 │   └── MainForm.Designer.cs   # 폼 디자이너 자동 생성 파일
 ├── BL/
-│   └── NoteService.cs         # 비즈니스 로직 (유효성 검사 등)
+│   └── MemoService.cs         # 비즈니스 로직 (유효성 검사 등)
 ├── DAL/
-│   ├── NoteRepository.cs      # DB CRUD 메서드
+│   ├── MemoRepository.cs      # DB CRUD 메서드
 │   └── DatabaseHelper.cs      # SqlConnection 래핑 클래스
 ├── Models/
-│   └── Note.cs                # 데이터 모델
+│   └── Memo.cs                # 데이터 모델
 ├── schema.sql                 # 테이블 생성 DDL
 └── README.md
 ``` -->
@@ -86,13 +86,13 @@ SQLite DB
 
 ### CRUD 구현
 
-<!-- | 기능 | 메서드 | HTTP 유사 개념 |
+| 기능 | 메서드 | HTTP 유사 개념 |
 |------|--------|--------------|
-| 전체 조회 | `GetAllNotes()` | GET |
-| 단건 조회 | `GetNoteById(int id)` | GET /{id} |
-| 생성 | `InsertNote(Note note)` | POST |
-| 수정 | `UpdateNote(Note note)` | PUT |
-| 삭제 | `DeleteNote(int id)` | DELETE | -->
+| 전체 조회 | `GetAllMemos()` | GET |
+| 단건 조회 | `GetMemoById(int id)` | GET /{id} |
+| 생성 | `InsertMemo(Memo memo)` | POST |
+| 수정 | `UpdateMemo(Memo memo)` | PUT |
+| 삭제 | `DeleteMemo(int id)` | DELETE |
 
 ---
 
@@ -109,7 +109,7 @@ public bool ValidateNote(Note note)
         throw new ArgumentException("내용을 입력하세요.");
     return true;
 }
-```
+``` -->
 
 ---
 
@@ -129,13 +129,13 @@ cmd.Parameters.AddWithValue("@content", note.Content);
 ## 🛢️ DB 스키마
 
 ```sql
-CREATE TABLE IF NOT EXISTS Notes (
+CREATE TABLE IF NOT EXISTS Memo (
     Id      INTEGER PRIMARY KEY AUTOINCREMENT,
     Title   TEXT    NOT NULL,
     Content TEXT    NOT NULL,
-    Created TEXT    DEFAULT (datetime('now', 'localtime'))
+    Date    TEXT
 );
-``` -->
+```
 
 ---
 
@@ -162,11 +162,11 @@ dotnet run
 
 ## 💡 트러블슈팅
 
-<!-- 실제 겪은 문제를 작성하세요. 면접 단골 질문입니다. -->
-<!-- 
-**문제:** DataGridView 업데이트 시 UI가 잠시 멈추는 현상
-**원인:** DB 조회를 UI 스레드에서 동기 방식으로 호출
-**해결:** `async/await`로 DB 조회 메서드를 비동기 처리, `DataSource` 갱신은 UI 스레드에서 수행 -->
+<!-- 실제 겪은 문제를 작성하세요. 면접 단골 질문입니다. --> 
+
+**문제:** Model에서 접근 제한자(access modifier)를 습관적으로 private로 설정하여 외부에서 해당 필드/메서드에 접근할 수 없는 문제가 발생 
+
+**해결:** 접근이 필요한 부분에 대해 접근 제한자를 public으로 수정하여 정상적으로 접근 가능하도록 변경
 
 ---
 
