@@ -4,7 +4,7 @@
 
 [![C#](https://img.shields.io/badge/C%23-11.0-239120?style=flat-square&logo=c-sharp)](https://learn.microsoft.com/ko-kr/dotnet/csharp/)
 [![.NET](https://img.shields.io/badge/.NET-6.0-512BD4?style=flat-square&logo=dotnet)](https://dotnet.microsoft.com/)
-[![진행률](https://img.shields.io/badge/진행률-1/4_미완료-059669?style=flat-square)]()
+[![진행률](https://img.shields.io/badge/진행률-2/4_미완료-059669?style=flat-square)]()
 
 ---
 
@@ -41,7 +41,7 @@ Null 안전             유효성 검사           xUnit 테스트          Dock
 | 폴더 | 내용 | 상태 |
 |------|------|------|
 | [week1-csharp-basics](./week1-csharp-basics) | C# 문법 핵심 복습 (Console 앱) | ✅ 완료 |
-| [week2-winforms-crud](./week2-winforms-crud) | WinForms + SQLite CRUD 앱 | 미완료 |
+| [week2-winforms-crud](./week2-winforms-crud) | WinForms + SQLite CRUD 앱 | ✅ 완료 |
 | [week3-aspnet-api](./week3-aspnet-api) | ASP.NET Core REST API 서버 | 미완료 |
 | [portfolio-csharp](./portfolio-csharp) | WinForms + API 통합 포트폴리오 | 미완료 |
 <!-- ✅ 완료 -->
@@ -124,7 +124,7 @@ Windows App 개발 경험 이후 공백기 동안 단순히 개념 공부에 그
 | 주차 | 기간 | 완료 기준 |
 |------|------|----------|
 | 1주차 | `03/11 ~ 03/13` | Console 앱 4개 파일 GitHub 업로드 |
-| 2주차 | `MM/DD ~ MM/DD` | WinForms 앱 실행 + 스크린샷 포함 |
+| 2주차 | `03/13 ~ 03/14` | WinForms 앱 실행 + 스크린샷 포함 |
 | 3주차 | `MM/DD ~ MM/DD` | Swagger 확인 가능 + 테스트 통과 |
 | 4주차 | `MM/DD ~ MM/DD` | 전체 통합 동작 + CI 통과 |
 
