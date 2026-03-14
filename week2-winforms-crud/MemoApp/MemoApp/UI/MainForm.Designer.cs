@@ -89,6 +89,7 @@
             reloadBtn.TabIndex = 3;
             reloadBtn.Text = "새로고침";
             reloadBtn.UseVisualStyleBackColor = true;
+            reloadBtn.Click += reloadBtn_Click;
             // 
             // deleteBtn
             // 
@@ -110,6 +111,7 @@
             updateBtn.TabIndex = 1;
             updateBtn.Text = "수정";
             updateBtn.UseVisualStyleBackColor = true;
+            updateBtn.Click += updateBtn_Click;
             // 
             // creatBtn
             // 
@@ -165,6 +167,7 @@
             memoListView.TabIndex = 4;
             memoListView.UseCompatibleStateImageBehavior = false;
             memoListView.View = View.Details;
+            memoListView.SelectedIndexChanged += memoListView_SelectedIndexChanged;
             // 
             // MainForm
             // 

@@ -38,19 +38,19 @@ namespace MemoApp.DAL
             }
         }
 
-        public List<Memo> GetAllMemos()
+        public async Task<List<Memo>> GetAllMemos()
         {
             var memos = new List<Memo>();
 
             using (var conn = new SqliteConnection(connectionString))
             {
-                conn.Open();
+                await conn.OpenAsync();
                 string sql = "SELECT * FROM Memo";
 
                 using (var cmd = new SqliteCommand(sql, conn)) 
-                using (var reader = cmd.ExecuteReader())
+                using (var reader = await cmd.ExecuteReaderAsync())
                 {
-                    while (reader.Read())
+                    while (await reader.ReadAsync())
                     {
                         int id = Convert.ToInt32(reader["Id"]);
                         string title = Convert.ToString(reader["Title"]);
@@ -65,20 +65,20 @@ namespace MemoApp.DAL
             return memos;
         }
 
-        public Memo GetMemoById(int id)
+        public async Task<Memo> GetMemoById(int id)
         {
             using (var conn = new SqliteConnection(connectionString))
             {
-                conn.Open();
+                await conn.OpenAsync();
                 string sql = $"SELECT * FROM Memo WHERE Id = @id";
 
                 using (var cmd = new SqliteCommand(sql, conn))
                 {
                     cmd.Parameters.AddWithValue("@Id", id);
 
-                    using (var reader = cmd.ExecuteReader())
+                    using (var reader = await cmd.ExecuteReaderAsync())
                     {
-                        if (reader.Read())
+                        if (await reader.ReadAsync())
                         {
                             id = Convert.ToInt32(reader["Id"]);
                             string title = Convert.ToString(reader["Title"]);
@@ -93,11 +93,11 @@ namespace MemoApp.DAL
             }
         }
 
-        public bool InsertMemo(Memo memo)
+        public async Task<bool> InsertMemo(Memo memo)
         {
             using (var conn = new SqliteConnection(connectionString))
             {
-                conn.Open();
+                await conn.OpenAsync();
                 string sql = "INSERT INTO Memo(Title, Contents, Date) VALUES (@Title, @Contents, @Date)";
             
                 using (var cmd = new SqliteCommand(sql, conn))
@@ -106,16 +106,16 @@ namespace MemoApp.DAL
                     cmd.Parameters.AddWithValue("@Contents", memo.Contents);
                     cmd.Parameters.AddWithValue("@Date", memo.Date);
 
-                    return cmd.ExecuteNonQuery() > 0;
+                    return await cmd.ExecuteNonQueryAsync() > 0;
                 }
             }
         }
 
-        public bool UpdateMemo(Memo memo) 
+        public async Task<bool> UpdateMemo(Memo memo) 
         {
             using (var conn = new SqliteConnection(connectionString))
             {
-                conn.Open();
+                await conn.OpenAsync();
                 string sql = "UPDATE Memo SET Title = @Title, Contents = @Contents WHERE Id = @Id";
 
                 using (var cmd = new SqliteCommand(sql, conn))
@@ -124,23 +124,23 @@ namespace MemoApp.DAL
                     cmd.Parameters.AddWithValue("@Contents", memo.Contents);
                     cmd.Parameters.AddWithValue("@Id", memo.Id);
 
-                    return cmd.ExecuteNonQuery() > 0;
+                    return await cmd.ExecuteNonQueryAsync() > 0;
                 }
             }
         }
 
-        public bool DeleteMemo(int id)
+        public async Task<bool> DeleteMemo(int id)
         {
             using (var conn = new SqliteConnection(connectionString))
             {
-                conn.Open();
+                await conn.OpenAsync();
                 string sql = "DELETE FROM Memo WHERE Id = @Id";
 
                 using(var cmd = new SqliteCommand(sql, conn))
                 {
                     cmd.Parameters.AddWithValue("@Id", id);
 
-                    return cmd.ExecuteNonQuery() > 0;
+                    return await cmd.ExecuteNonQueryAsync() > 0;
                 }
             }
         }

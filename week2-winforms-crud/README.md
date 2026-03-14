@@ -5,7 +5,7 @@
 [![.NET](https://img.shields.io/badge/.NET-6.0-512BD4?style=flat-square&logo=dotnet)](https://dotnet.microsoft.com/)
 [![C#](https://img.shields.io/badge/C%23-WinForms-239120?style=flat-square&logo=c-sharp)]()
 [![SQLite](https://img.shields.io/badge/SQLite-3-003B57?style=flat-square&logo=sqlite)](https://www.sqlite.org/)
-<!-- [![Status](https://img.shields.io/badge/Status-Complete-059669?style=flat-square)]() -->
+[![Status](https://img.shields.io/badge/Status-Complete-059669?style=flat-square)]()
 
 ---
 
@@ -34,7 +34,7 @@ CRUD 전체 흐름과 비동기 UI 처리를 실무에 가까운 방식으로 �
 ---
 
 ## 🗂️ 파일 구조
-<!-- 
+
 ```
 week2-winforms-crud/
 ├── UI/
@@ -44,12 +44,10 @@ week2-winforms-crud/
 │   └── MemoService.cs         # 비즈니스 로직 (유효성 검사 등)
 ├── DAL/
 │   ├── MemoRepository.cs      # DB CRUD 메서드
-│   └── DatabaseHelper.cs      # SqlConnection 래핑 클래스
 ├── Models/
 │   └── Memo.cs                # 데이터 모델
-├── schema.sql                 # 테이블 생성 DDL
 └── README.md
-``` -->
+```
 
 ---
 
@@ -178,7 +176,7 @@ dotnet run
 ## 📅 학습 기간
 
 - 시작일: `2026-03-13`
-- 완료일: `2026-MM-DD`
+- 완료일: `2026-03-14`
 
 ---
 

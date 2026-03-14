@@ -12,39 +12,39 @@ namespace MemoApp.BL
     {
         private MemoRepository memoRepository = new MemoRepository();
 
-        public bool InsertMemo(Memo memo)
+        public async Task<bool> InsertMemo(Memo memo)
         {
             if (memo == null || string.IsNullOrWhiteSpace(memo.Title))
             {
                 return false;
             }
 
-            return memoRepository.InsertMemo(memo);
+            return await memoRepository.InsertMemo(memo);
         }
 
-        public List<Memo> GetAllMemos()
+        public async Task<List<Memo>> GetAllMemos()
         {
-            return memoRepository.GetAllMemos();
+            return await memoRepository.GetAllMemos();
         }
 
-        public Memo GetMemoById(int id)
+        public async Task<Memo> GetMemoById(int id)
         {
-            return memoRepository.GetMemoById(id);
+            return await memoRepository.GetMemoById(id);
         }
 
-        public bool UpdateMemo(Memo memo)
+        public async Task<bool> UpdateMemo(Memo memo)
         {
             if (memo == null || string.IsNullOrWhiteSpace(memo.Title))
             {
                 return false;
             }
 
-            return memoRepository.UpdateMemo(memo);
+            return await memoRepository.UpdateMemo(memo);
         }
 
-        public bool DeleteMemo(int id)
+        public async Task<bool> DeleteMemo(int id)
         {
-            return memoRepository.DeleteMemo(id);
+            return await memoRepository.DeleteMemo(id);
         }
     }
 }
