@@ -96,20 +96,19 @@ SQLite DB
 
 ---
 
-<!-- ### 유효성 검사 (NoteService)
+### 유효성 검사 (MemoService)
 
 ```csharp
-public bool ValidateNote(Note note)
+public bool InsertMemo(Memo memo)
 {
-    if (string.IsNullOrWhiteSpace(note.Title))
-        throw new ArgumentException("제목을 입력하세요.");
-    if (note.Title.Length > 50)
-        throw new ArgumentException("제목은 50자 이내로 입력하세요.");
-    if (string.IsNullOrWhiteSpace(note.Content))
-        throw new ArgumentException("내용을 입력하세요.");
-    return true;
+    if (memo == null && string.IsNullOrWhiteSpace(memo.Title))
+    {
+        return false;
+    }
+
+    return memoRepository.InsertMemo(memo);
 }
-``` -->
+```
 
 ---
 
