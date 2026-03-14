@@ -113,12 +113,36 @@ namespace MemoApp.DAL
 
         public bool UpdateMemo(Memo memo) 
         {
-            
+            using (var conn = new SqliteConnection(connectionString))
+            {
+                conn.Open();
+                string sql = "UPDATE Memo SET Title = @Title, Contents = @Contents WHERE Id = @Id";
+
+                using (var cmd = new SqliteCommand(sql, conn))
+                {
+                    cmd.Parameters.AddWithValue("@Title", memo.Title);
+                    cmd.Parameters.AddWithValue("@Contents", memo.Contents);
+                    cmd.Parameters.AddWithValue("@Id", memo.Id);
+
+                    return cmd.ExecuteNonQuery() > 0;
+                }
+            }
         }
 
         public bool DeleteMemo(int id)
         {
+            using (var conn = new SqliteConnection(connectionString))
+            {
+                conn.Open();
+                string sql = "DELETE FROM Memo WHERE Id = @Id";
 
+                using(var cmd = new SqliteCommand(sql, conn))
+                {
+                    cmd.Parameters.AddWithValue("@Id", id);
+
+                    return cmd.ExecuteNonQuery() > 0;
+                }
+            }
         }
     }
 }

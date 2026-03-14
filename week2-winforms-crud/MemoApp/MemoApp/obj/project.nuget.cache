@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KaMJHsUunTA=",
+  "dgSpecHash": "jWLMzq7OjUQ=",
   "success": true,
-  "projectFilePath": "C:\\Users\\jyr\\Desktop\\study\\dev\\language\\c#\\csharp-relearning\\week1-csharp-basics\\MemoApp\\MemoApp\\MemoApp.csproj",
+  "projectFilePath": "C:\\Users\\jyr\\Desktop\\study\\dev\\language\\c#\\csharp-relearning\\week2-winforms-crud\\MemoApp\\MemoApp\\MemoApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jyr\\.nuget\\packages\\microsoft.data.sqlite\\10.0.5\\microsoft.data.sqlite.10.0.5.nupkg.sha512",
     "C:\\Users\\jyr\\.nuget\\packages\\microsoft.data.sqlite.core\\10.0.5\\microsoft.data.sqlite.core.10.0.5.nupkg.sha512",
