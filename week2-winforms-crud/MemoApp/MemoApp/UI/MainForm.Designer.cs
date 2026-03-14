@@ -99,6 +99,7 @@
             deleteBtn.TabIndex = 2;
             deleteBtn.Text = "삭제";
             deleteBtn.UseVisualStyleBackColor = true;
+            deleteBtn.Click += deleteBtn_Click;
             // 
             // updateBtn
             // 

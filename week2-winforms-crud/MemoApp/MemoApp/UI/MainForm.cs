@@ -27,7 +27,7 @@ namespace MemoApp
 
             List<Memo> memos = memoService.GetAllMemos();
 
-            foreach(Memo memo in memos)
+            foreach (Memo memo in memos)
             {
                 ListViewItem item = new ListViewItem(memo.Title);
                 item.SubItems.Add(memo.Date.ToString("yyyy-MM-dd"));
@@ -47,6 +47,32 @@ namespace MemoApp
                 LoadMemos();
             else
                 MessageBox.Show("메모 저장을 실패하였습니다.");
+        }
+
+        private void deleteBtn_Click(object sender, EventArgs e)
+        {
+            if(memoListView.SelectedItems.Count == 0)
+            {
+                MessageBox.Show("삭제할 메모를 선택해주세요.");
+                return;
+            }
+
+            DialogResult result = MessageBox.Show("정말로 삭제하시겠습니까?",
+                "삭제 확인", MessageBoxButtons.YesNo,
+                MessageBoxIcon.Question);
+
+            if(result == DialogResult.Yes)
+            {
+                Memo selectedMemo = (Memo)memoListView.SelectedItems[0].Tag;
+                if (memoService.DeleteMemo(selectedMemo.Id))
+                {
+                    LoadMemos();
+                }
+                else
+                {
+                    MessageBox.Show("삭제를 실패했습니다.");
+                }
+            }
         }
     }
 }
