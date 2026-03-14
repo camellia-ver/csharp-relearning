@@ -29,15 +29,15 @@
         private void InitializeComponent()
         {
             tableLayoutPanel1 = new TableLayoutPanel();
-            memoList = new ListBox();
             tableLayoutPanel2 = new TableLayoutPanel();
-            creatBtn = new Button();
-            updateBtn = new Button();
-            deleteBtn = new Button();
             reloadBtn = new Button();
+            deleteBtn = new Button();
+            updateBtn = new Button();
+            creatBtn = new Button();
             tableLayoutPanel3 = new TableLayoutPanel();
             titleText = new TextBox();
             contentText = new TextBox();
+            memoListView = new ListView();
             tableLayoutPanel1.SuspendLayout();
             tableLayoutPanel2.SuspendLayout();
             tableLayoutPanel3.SuspendLayout();
@@ -47,9 +47,9 @@
             // 
             tableLayoutPanel1.ColumnCount = 1;
             tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100F));
-            tableLayoutPanel1.Controls.Add(memoList, 0, 0);
             tableLayoutPanel1.Controls.Add(tableLayoutPanel2, 0, 2);
             tableLayoutPanel1.Controls.Add(tableLayoutPanel3, 0, 1);
+            tableLayoutPanel1.Controls.Add(memoListView, 0, 0);
             tableLayoutPanel1.Dock = DockStyle.Fill;
             tableLayoutPanel1.Location = new Point(0, 0);
             tableLayoutPanel1.Name = "tableLayoutPanel1";
@@ -59,15 +59,6 @@
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 15F));
             tableLayoutPanel1.Size = new Size(800, 529);
             tableLayoutPanel1.TabIndex = 0;
-            // 
-            // memoList
-            // 
-            memoList.Dock = DockStyle.Fill;
-            memoList.FormattingEnabled = true;
-            memoList.Location = new Point(3, 3);
-            memoList.Name = "memoList";
-            memoList.Size = new Size(794, 99);
-            memoList.TabIndex = 0;
             // 
             // tableLayoutPanel2
             // 
@@ -89,26 +80,15 @@
             tableLayoutPanel2.Size = new Size(794, 75);
             tableLayoutPanel2.TabIndex = 2;
             // 
-            // creatBtn
+            // reloadBtn
             // 
-            creatBtn.Dock = DockStyle.Fill;
-            creatBtn.Location = new Point(3, 3);
-            creatBtn.Name = "creatBtn";
-            creatBtn.Size = new Size(192, 69);
-            creatBtn.TabIndex = 0;
-            creatBtn.Text = "추가";
-            creatBtn.UseVisualStyleBackColor = true;
-            creatBtn.Click += creatBtn_Click;
-            // 
-            // updateBtn
-            // 
-            updateBtn.Dock = DockStyle.Fill;
-            updateBtn.Location = new Point(201, 3);
-            updateBtn.Name = "updateBtn";
-            updateBtn.Size = new Size(192, 69);
-            updateBtn.TabIndex = 1;
-            updateBtn.Text = "수정";
-            updateBtn.UseVisualStyleBackColor = true;
+            reloadBtn.Dock = DockStyle.Fill;
+            reloadBtn.Location = new Point(597, 3);
+            reloadBtn.Name = "reloadBtn";
+            reloadBtn.Size = new Size(194, 69);
+            reloadBtn.TabIndex = 3;
+            reloadBtn.Text = "새로고침";
+            reloadBtn.UseVisualStyleBackColor = true;
             // 
             // deleteBtn
             // 
@@ -120,15 +100,26 @@
             deleteBtn.Text = "삭제";
             deleteBtn.UseVisualStyleBackColor = true;
             // 
-            // reloadBtn
+            // updateBtn
             // 
-            reloadBtn.Dock = DockStyle.Fill;
-            reloadBtn.Location = new Point(597, 3);
-            reloadBtn.Name = "reloadBtn";
-            reloadBtn.Size = new Size(194, 69);
-            reloadBtn.TabIndex = 3;
-            reloadBtn.Text = "새로고침";
-            reloadBtn.UseVisualStyleBackColor = true;
+            updateBtn.Dock = DockStyle.Fill;
+            updateBtn.Location = new Point(201, 3);
+            updateBtn.Name = "updateBtn";
+            updateBtn.Size = new Size(192, 69);
+            updateBtn.TabIndex = 1;
+            updateBtn.Text = "수정";
+            updateBtn.UseVisualStyleBackColor = true;
+            // 
+            // creatBtn
+            // 
+            creatBtn.Dock = DockStyle.Fill;
+            creatBtn.Location = new Point(3, 3);
+            creatBtn.Name = "creatBtn";
+            creatBtn.Size = new Size(192, 69);
+            creatBtn.TabIndex = 0;
+            creatBtn.Text = "추가";
+            creatBtn.UseVisualStyleBackColor = true;
+            creatBtn.Click += creatBtn_Click;
             // 
             // tableLayoutPanel3
             // 
@@ -158,9 +149,21 @@
             // 
             contentText.Dock = DockStyle.Fill;
             contentText.Location = new Point(3, 70);
+            contentText.Multiline = true;
             contentText.Name = "contentText";
-            contentText.Size = new Size(788, 27);
+            contentText.Size = new Size(788, 264);
             contentText.TabIndex = 1;
+            // 
+            // memoListView
+            // 
+            memoListView.Dock = DockStyle.Fill;
+            memoListView.FullRowSelect = true;
+            memoListView.Location = new Point(3, 3);
+            memoListView.Name = "memoListView";
+            memoListView.Size = new Size(794, 99);
+            memoListView.TabIndex = 4;
+            memoListView.UseCompatibleStateImageBehavior = false;
+            memoListView.View = View.Details;
             // 
             // MainForm
             // 
@@ -181,7 +184,6 @@
         #endregion
 
         private TableLayoutPanel tableLayoutPanel1;
-        private ListBox memoList;
         private TableLayoutPanel tableLayoutPanel2;
         private Button reloadBtn;
         private Button deleteBtn;
@@ -190,5 +192,6 @@
         private TableLayoutPanel tableLayoutPanel3;
         private TextBox titleText;
         private TextBox contentText;
+        private ListView memoListView;
     }
 }

@@ -1,18 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\jyr\\Desktop\\study\\dev\\language\\c#\\csharp-relearning\\week1-csharp-basics\\MemoApp\\",
+  "WorkspaceRootPath": "C:\\Users\\jyr\\Desktop\\study\\dev\\language\\c#\\csharp-relearning\\week2-winforms-crud\\MemoApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D20805A0-9D87-40B4-A6DC-27653643CBB2}|MemoApp\\MemoApp.csproj|c:\\users\\jyr\\desktop\\study\\dev\\language\\c#\\csharp-relearning\\week1-csharp-basics\\memoapp\\memoapp\\dal\\memorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D20805A0-9D87-40B4-A6DC-27653643CBB2}|MemoApp\\MemoApp.csproj|c:\\users\\jyr\\desktop\\study\\dev\\language\\c#\\csharp-relearning\\week2-winforms-crud\\memoapp\\memoapp\\ui\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D20805A0-9D87-40B4-A6DC-27653643CBB2}|MemoApp\\MemoApp.csproj|solutionrelative:memoapp\\ui\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D20805A0-9D87-40B4-A6DC-27653643CBB2}|MemoApp\\MemoApp.csproj|C:\\Users\\jyr\\Desktop\\study\\dev\\language\\c#\\csharp-relearning\\week2-winforms-crud\\MemoApp\\memoapp\\ui\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D20805A0-9D87-40B4-A6DC-27653643CBB2}|MemoApp\\MemoApp.csproj|solutionrelative:memoapp\\ui\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D20805A0-9D87-40B4-A6DC-27653643CBB2}|MemoApp\\MemoApp.csproj|c:\\users\\jyr\\desktop\\study\\dev\\language\\c#\\csharp-relearning\\week2-winforms-crud\\memoapp\\memoapp\\dal\\memorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D20805A0-9D87-40B4-A6DC-27653643CBB2}|MemoApp\\MemoApp.csproj|solutionrelative:memoapp\\dal\\memorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D20805A0-9D87-40B4-A6DC-27653643CBB2}|MemoApp\\MemoApp.csproj|c:\\users\\jyr\\desktop\\study\\dev\\language\\c#\\csharp-relearning\\week1-csharp-basics\\memoapp\\memoapp\\models\\memo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D20805A0-9D87-40B4-A6DC-27653643CBB2}|MemoApp\\MemoApp.csproj|solutionrelative:memoapp\\models\\memo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D20805A0-9D87-40B4-A6DC-27653643CBB2}|MemoApp\\MemoApp.csproj|C:\\Users\\jyr\\Desktop\\study\\dev\\language\\c#\\csharp-relearning\\week1-csharp-basics\\MemoApp\\memoapp\\ui\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D20805A0-9D87-40B4-A6DC-27653643CBB2}|MemoApp\\MemoApp.csproj|solutionrelative:memoapp\\ui\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{D20805A0-9D87-40B4-A6DC-27653643CBB2}|MemoApp\\MemoApp.csproj|c:\\users\\jyr\\desktop\\study\\dev\\language\\c#\\csharp-relearning\\week2-winforms-crud\\memoapp\\memoapp\\bl\\memoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D20805A0-9D87-40B4-A6DC-27653643CBB2}|MemoApp\\MemoApp.csproj|solutionrelative:memoapp\\bl\\memoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,12 +31,38 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "C:\\Users\\jyr\\Desktop\\study\\dev\\language\\c#\\csharp-relearning\\week2-winforms-crud\\MemoApp\\MemoApp\\UI\\MainForm.cs",
+              "RelativeDocumentMoniker": "MemoApp\\UI\\MainForm.cs",
+              "ToolTip": "C:\\Users\\jyr\\Desktop\\study\\dev\\language\\c#\\csharp-relearning\\week2-winforms-crud\\MemoApp\\MemoApp\\UI\\MainForm.cs",
+              "RelativeToolTip": "MemoApp\\UI\\MainForm.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAmwBIAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T06:13:43.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MemoService.cs",
+              "DocumentMoniker": "C:\\Users\\jyr\\Desktop\\study\\dev\\language\\c#\\csharp-relearning\\week2-winforms-crud\\MemoApp\\MemoApp\\BL\\MemoService.cs",
+              "RelativeDocumentMoniker": "MemoApp\\BL\\MemoService.cs",
+              "ToolTip": "C:\\Users\\jyr\\Desktop\\study\\dev\\language\\c#\\csharp-relearning\\week2-winforms-crud\\MemoApp\\MemoApp\\BL\\MemoService.cs",
+              "RelativeToolTip": "MemoApp\\BL\\MemoService.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAkwCsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T05:56:05.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "MemoRepository.cs",
-              "DocumentMoniker": "C:\\Users\\jyr\\Desktop\\study\\dev\\language\\c#\\csharp-relearning\\week1-csharp-basics\\MemoApp\\MemoApp\\DAL\\MemoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\jyr\\Desktop\\study\\dev\\language\\c#\\csharp-relearning\\week2-winforms-crud\\MemoApp\\MemoApp\\DAL\\MemoRepository.cs",
               "RelativeDocumentMoniker": "MemoApp\\DAL\\MemoRepository.cs",
-              "ToolTip": "C:\\Users\\jyr\\Desktop\\study\\dev\\language\\c#\\csharp-relearning\\week1-csharp-basics\\MemoApp\\MemoApp\\DAL\\MemoRepository.cs",
+              "ToolTip": "C:\\Users\\jyr\\Desktop\\study\\dev\\language\\c#\\csharp-relearning\\week2-winforms-crud\\MemoApp\\MemoApp\\DAL\\MemoRepository.cs",
               "RelativeToolTip": "MemoApp\\DAL\\MemoRepository.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAkwBwAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAIUAAAAAAAAAAAAIwJIAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-13T08:13:50.797Z",
               "EditorCaption": ""
@@ -40,23 +70,10 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Memo.cs",
-              "DocumentMoniker": "C:\\Users\\jyr\\Desktop\\study\\dev\\language\\c#\\csharp-relearning\\week1-csharp-basics\\MemoApp\\MemoApp\\Models\\Memo.cs",
-              "RelativeDocumentMoniker": "MemoApp\\Models\\Memo.cs",
-              "ToolTip": "C:\\Users\\jyr\\Desktop\\study\\dev\\language\\c#\\csharp-relearning\\week1-csharp-basics\\MemoApp\\MemoApp\\Models\\Memo.cs",
-              "RelativeToolTip": "MemoApp\\Models\\Memo.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-13T07:57:49.457Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "MainForm.cs [\uB514\uC790\uC778]",
-              "DocumentMoniker": "C:\\Users\\jyr\\Desktop\\study\\dev\\language\\c#\\csharp-relearning\\week1-csharp-basics\\MemoApp\\MemoApp\\UI\\MainForm.cs",
+              "DocumentMoniker": "C:\\Users\\jyr\\Desktop\\study\\dev\\language\\c#\\csharp-relearning\\week2-winforms-crud\\MemoApp\\MemoApp\\UI\\MainForm.cs",
               "RelativeDocumentMoniker": "MemoApp\\UI\\MainForm.cs",
-              "ToolTip": "C:\\Users\\jyr\\Desktop\\study\\dev\\language\\c#\\csharp-relearning\\week1-csharp-basics\\MemoApp\\MemoApp\\UI\\MainForm.cs [\uB514\uC790\uC778]",
+              "ToolTip": "C:\\Users\\jyr\\Desktop\\study\\dev\\language\\c#\\csharp-relearning\\week2-winforms-crud\\MemoApp\\MemoApp\\UI\\MainForm.cs [\uB514\uC790\uC778]",
               "RelativeToolTip": "MemoApp\\UI\\MainForm.cs [\uB514\uC790\uC778]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-13T07:54:31.398Z",
