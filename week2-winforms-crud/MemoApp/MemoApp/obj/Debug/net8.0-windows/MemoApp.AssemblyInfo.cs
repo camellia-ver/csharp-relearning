@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MemoApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4917b7e2e16828965cd8f0bee0c545292ac5bb93")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c2f0313762d1ee83af17117e026f0b62902baf35")]
 [assembly: System.Reflection.AssemblyProductAttribute("MemoApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MemoApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
